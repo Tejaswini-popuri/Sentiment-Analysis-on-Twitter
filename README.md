@@ -10,15 +10,15 @@ directory
 6. In this page, you’ll find a consumer_key, consumer_secret, access_token, and access_token_secret
 7. Copy your keys and tokens into config.cfg
 
-First we need to clean up the tweet file content. For each word that is not a
+  First we need to clean up the tweet file content. For each word that is not a
 “stop word” (and, the, a, is, as, …), a value +1 is assigned for positive sentiment or a value -1 for
 negative sentiment. 
-A list of “positive” words, negative words and stop words are included. For the words that is not in
+  A list of “positive” words, negative words and stop words are included. For the words that is not in
 positive/negative/stop words, counted as ‘others’.
-• Used the word ‘Trump’ to collect the tweets and performed sentiment analysis
-• Used the keyword 'Pfizer' to perform the same analysis again.
+  1. Used the word ‘Trump’ to collect the tweets and performed sentiment analysis
+  2. Used the keyword 'Pfizer' to perform the same analysis again.
 
 Objective:
-• What’s the ratio of positive/negative/stop word/others compare to the whole word count?
-• What’s the sum of all positive/negative observed? Do you think that the general
+ 1. What’s the ratio of positive/negative/stop word/others compare to the whole word count?
+ 2. What’s the sum of all positive/negative observed? Do you think that the general
 sentiment is negative or positive? Weakly or strongly?
